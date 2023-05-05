@@ -20,7 +20,7 @@ const CardSlider = () => {
                     // install Swiper modules
                     modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
                     spaceBetween={40}
-                    slidesPerView={5}
+                    slidesPerView={4}
                     speed={1200}
                     autoplay={{
                         delay: 1000,
@@ -33,7 +33,7 @@ const CardSlider = () => {
                             spaceBetween: 10
                         },
                         768: {
-                            slidesPerView: 5,
+                            slidesPerView: 4,
                             spaceBetween: 0
                         }
                     }}

@@ -1,8 +1,13 @@
 import AuditionInfo from "../components/AuditionInfo"
+import Footer from "../components/Footer"
 
 const AuditionPage = () => {
     return (
-        <AuditionInfo />
+        <>
+            <AuditionInfo />
+            <Footer />
+        </>
+        
     )
 }
 

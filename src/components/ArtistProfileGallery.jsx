@@ -5,6 +5,12 @@ const ArtistProfileGallery = ({ selectedArtist }) => {
 
     const currentArtist = artistData.find(artist => artist.artist === selectedArtist);
 
+    if(selectedArtist == "") {
+        return (<div></div>)
+    } else {
+
+    
+
     return (
         <div id="artist-profile-gallery">
             <div className="artist-profile-gallery container">
@@ -55,15 +61,7 @@ const ArtistProfileGallery = ({ selectedArtist }) => {
 
                                 )}
 
-                                {(currentArtist.careers && currentArtist.careers.length > 0) && (
-                                    <>
-                                        <h3>기타</h3>
-                                        {currentArtist.careers.map((career, index) => (
-                                            <p key={index}>{career}</p>
-                                        ))}
-                                    </>
-
-                                )}
+                                
 
 
 
@@ -119,6 +117,16 @@ const ArtistProfileGallery = ({ selectedArtist }) => {
                                     </>
 
                                 )}
+
+{(currentArtist.careers && currentArtist.careers.length > 0) && (
+                                    <>
+                                        <h3>기타</h3>
+                                        {currentArtist.careers.map((career, index) => (
+                                            <p key={index}>{career}</p>
+                                        ))}
+                                    </>
+
+                                )}
                             </div>
                         </div>
 
@@ -127,7 +135,7 @@ const ArtistProfileGallery = ({ selectedArtist }) => {
             </div>
         </div>
 
-    )
+    ) }
 }
 
 export default ArtistProfileGallery

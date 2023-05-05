@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;500;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;500;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
 
 :root {
-  --menu-textColor : #646464;
-  --title-textColor : #202020;
-  --border-lineColor : #dddddd;
+  --menu-textColor: #646464;
+  --title-textColor: #202020;
+  --border-lineColor: #dddddd;
 }
 
 * {
@@ -12,8 +12,9 @@
   box-sizing: border-box;
 }
 
-html, body {
-  font-family: 'Roboto', sans-serif;
+html,
+body {
+  font-family: "Roboto", sans-serif;
 }
 
 .container {
@@ -63,11 +64,10 @@ a {
 }
 
 p {
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
   font-weight: 300;
   color: var(--menu-textColor);
 }
-
 
 /* Header */
 #header .header {
@@ -91,6 +91,7 @@ p {
 }
 
 .header-menu-wrapper li {
+  position: relative;
   margin: 0 30px;
   padding: 5px 20px;
   font-weight: 700;
@@ -103,6 +104,63 @@ p {
 .header-menu-wrapper li:hover {
   border-bottom: 3px solid #000;
   color: #000;
+}
+
+.header-menu-wrapper .dropdown li:hover {
+  border-bottom: 3px solid transparent;
+}
+
+.dropdown {
+  position: relative;
+}
+
+
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  display: none;
+  z-index: 1111;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu li {
+  margin: 0;
+  padding: 10px 0;
+  font-weight: 400;
+  font-size: 18px;
+  color: #333;
+}
+
+.dropdown-menu li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.dropdown-menu li:hover {
+  border-bottom: 3px solid #000;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background: #000;
 }
 
 /* End Header */
@@ -149,7 +207,7 @@ p {
 
 #image-grid .image-grid {
   height: 100%;
-  width: 100%;
+  max-width: 100%;
   padding: 20px 1px 1px 1px;
   border-top: 2px solid #dddddd;
 }
@@ -166,24 +224,75 @@ p {
   grid-template-rows: repeat(3, 1fr);
 }
 
+.image-grid .image-grid-wrapper.image-grid-artist-wrapper {
+  grid-template-rows: repeat(1, 1fr);
+}
+
 .image-grid .image-grid-wrapper .image-grid-item {
   width: 100%;
   height: 100%;
   overflow: hidden;
   cursor: pointer;
+  position: relative;
 }
 
-.image-grid .image-grid-wrapper .image-grid-item:last-child {
-  cursor: default;
+.image-grid .image-grid-wrapper .image-grid-item .image-grid-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 20px;
 }
 
-.image-grid .image-grid-wrapper .image-grid-item:nth-child(14) {
+.image-grid .image-grid-wrapper .image-grid-item:hover .image-grid-overlay {
+  display: none;
+}
+
+.image-grid .image-grid-wrapper .image-grid-item.image-grid-artist-logo {
   grid-column: span 2;
   width: 100%;
   border-right: 1px solid #e7e7e7;
   border-bottom: 1px solid #e7e7e7;
+  border-top: 1px solid #e7e7e7;
   padding: 0 30px;
   background: #fff;
+  cursor: default;
+}
+
+.image-grid .image-grid-wrapper .image-grid-item.image-grid-actor-logo {
+  grid-column: span 5;
+  width: 100%;
+  border-right: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+  border-top: 1px solid #e7e7e7;
+  padding: 0 30px;
+  background: #fff;
+  cursor: default;
+}
+
+.image-grid .image-grid-wrapper .image-grid-item.image-grid-artist-logo img,
+.image-grid .image-grid-wrapper .image-grid-item.image-grid-actor-logo img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.image-grid
+  .image-grid-wrapper
+  .image-grid-item.image-grid-artist-logo:hover
+  img,
+.image-grid
+  .image-grid-wrapper
+  .image-grid-item.image-grid-actor-logo:hover
+  img {
+  transform: scale(1);
 }
 
 .image-grid .image-grid-wrapper .image-grid-item img {
@@ -193,21 +302,9 @@ p {
   transition: 0.3s ease-out;
 }
 
-.image-grid .image-grid-wrapper .image-grid-item:nth-child(14) img {
-  width: 100%;
-  object-fit: contain;
-}
-
-
-
 .image-grid .image-grid-wrapper .image-grid-item:hover img {
   transform: scale(1.04);
 }
-
-.image-grid .image-grid-wrapper .image-grid-item:nth-child(14):hover img {
-  transform: scale(1);
-}
-
 
 /* End Image Grid */
 
@@ -229,7 +326,6 @@ p {
   border-bottom: 2px solid var(--border-lineColor);
 }
 
-
 .card-slider .card-slider-wrapper {
   width: 100%;
   height: 300px;
@@ -238,20 +334,18 @@ p {
 .card-slider-wrapper .card-slider-item {
   width: 100%;
   max-height: 300px;
+  overflow: hidden;
 }
 
 .card-slider-wrapper .card-slider-item img {
   height: 100%;
   object-fit: contain;
-  overflow: hidden;
 }
 
 /* End Card Slider */
 
-
 /* Artist Page */
 #artist-page {
-
 }
 
 #artist-page .artist-page {
@@ -265,7 +359,7 @@ p {
 }
 
 .artist-page .artist-page-names li {
-  font-family: 'Noto Sans KR', serif;
+  font-family: "Noto Sans KR", serif;
   font-weight: 300;
   color: var(--menu-textColor);
 }
@@ -285,24 +379,13 @@ p {
   width: 50%;
   padding-bottom: 30px;
   border-bottom: 3px solid #000;
-}
-
-.ceogreet .ceogreet-img {
-  width: 50%;
-  height: 300px;
-  padding: 0 50px;
-  margin-top: 30px;
-  background: #181818;
-}
-
-.ceogreet .ceogreet-img img {
-  height: 100%;
-  object-fit: contain;
+  text-align: center;
 }
 
 .ceogreet .ceogreet-content {
   width: 50%;
   margin-top: 50px;
+  text-align: center;
 }
 
 .ceogreet .ceogreet-content p {
@@ -313,12 +396,27 @@ p {
 .ceogreet .ceogreet-sign {
   width: 50%;
   margin-top: 30px;
-  justify-content: flex-start;
 }
 
 .ceogreet .ceogreet-sign img {
   width: 150px;
   margin-left: 20px;
+}
+
+.companypage {
+  height: 100%;
+}
+
+.companypage-img-wrapper {
+  height: 100%;
+}
+
+.companypage-img {
+  height: 100%;
+}
+
+.companypage-img img {
+  height: 100%;
 }
 
 /* End CEO Greet Page */
@@ -344,8 +442,12 @@ p {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 20px;
-  overflow: hidden;
+  /* overflow: hidden; */
   margin-top: 50px;
+}
+
+.news-cards .news-cards-wrapper a {
+  height: 100%;
 }
 
 .news-cards .news-cards-wrapper .news-cards-item {
@@ -354,7 +456,7 @@ p {
 }
 
 .news-cards .news-cards-wrapper .news-cards-item .news-cards-item-img {
-  height: 100%;
+  height: 80%;
   width: 100%;
   overflow: hidden;
 }
@@ -367,7 +469,7 @@ p {
 }
 
 .news-cards .news-cards-wrapper .news-cards-item .news-cards-item-title {
-  height: 10%;
+  height: 20%;
   padding: 5px;
 }
 
@@ -391,20 +493,13 @@ p {
   width: 100%;
   text-align: left;
   padding-bottom: 30px;
-  border-bottom: 3px solid var(--border-lineColor);;
+  border-bottom: 3px solid var(--border-lineColor);
 }
-
-
-
-
-
-
 
 /* End News Page */
 
 /* Audition Page */
 #audition-info {
-
 }
 
 #audition-info .audition-info {
@@ -429,7 +524,6 @@ p {
   text-align: center;
 }
 
-
 .audition-info .audition-info-title h2 {
   color: var(--menu-textColor);
   padding-top: 15px;
@@ -439,7 +533,6 @@ p {
 }
 
 .audition-info .audition-info-title p {
-  
   font-weight: 300;
   font-size: 14px;
   margin-top: 5px;
@@ -471,8 +564,6 @@ p {
 }
 /* End Audition Page */
 
-
-
 /* Footer */
 #footer {
   padding: 50px 0;
@@ -486,6 +577,7 @@ p {
 
 .footer .header-logo {
   padding: 20px 0;
+  cursor: pointer;
 }
 
 .footer .footer-content p {
@@ -496,8 +588,6 @@ p {
   color: var(--menu-textColor);
 }
 /* End Footer */
-
-
 
 /* Artist Gallery */
 #artist-profile-gallery {
@@ -517,13 +607,21 @@ p {
   align-items: flex-start;
 }
 
+.artist-small-img {
+  width: 80px;
+  height: 100px;
+  margin-top: 20px;
+}
+
 .artist-small-img img {
-  height: 110px;
+  width: 100%;
+  height: 100%;
   margin: 10px 0;
   cursor: pointer;
   display: block;
   opacity: 0.7;
   transition: 0.5s ease;
+  object-fit: cover;
 }
 
 .artist-small-img img:hover {
@@ -533,6 +631,7 @@ p {
 .img-container {
   margin-left: 10px;
   height: 600px;
+  width: 100%;
 }
 
 .img-container img {
@@ -543,8 +642,6 @@ p {
 .artist-profile-images {
   width: 50%;
 }
-
-
 
 .artist-detail {
   width: 50%;
@@ -605,22 +702,91 @@ p {
   border-bottom: 1px solid var(--border-lineColor);
 }
 
-
 /* Mobile */
-@media all and (max-width: 768px){
-	.header-logo {
+@media all and (max-width: 768px) {
+  .header-logo {
     max-width: 100%;
   }
 
   .header-menu-wrapper li {
     margin: 0;
-    padding: 5px 10px;
+    width: 100%;
+    padding: 20px 10px 0 10px;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 24px;
     color: var(--menu-textColor);
     transition: 0.5s ease;
-    border-bottom: 3px solid transparent;
+    border-bottom: none;
   }
+
+  .header-menu-wrapper li:hover {
+    border-bottom: 1px solid transparent;
+    color: var(--menu-textColor);
+  }
+
+  .header-menu-wrapper {
+    position: absolute;
+    left: -100%;
+    top: 0;
+    gap: 0;
+    flex-direction: column;
+    background: #f4f4f4;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    z-index: 111;
+    padding: 50px 0;
+  }
+
+  .header-menu-wrapper .menu-item {
+    display: block;
+    border-bottom: 1px solid transparent;
+  }
+
+  .header-menu-wrapper.active {
+    left: 0;
+  }
+
+  .hamburger {
+    display: block;
+    position: absolute;
+    left: 18px;
+    top: 15px;
+    z-index: 2222;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .dropdown .dropdown-menu {
+    display: block;
+    background: #f4f4f4;
+  }
+
+  .dropdown-menu {
+    position: relative;
+    margin-top: 10px;
+  }
+
+  .dropdown-menu > li {
+    margin: 0;
+    padding: 15px 0;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--menu-textColor);
+  }
+
+  .dropdown-menu li:hover {
+    border-bottom: none;
+  }
+  
 
   #main-banner .main-banner {
     max-width: 100%;
@@ -745,11 +911,7 @@ p {
 
   .artist-detail-col-2 {
     width: 100%;
-
   }
-
-
-
 
   #ceogreet .ceogreet {
     max-width: 90%;
@@ -817,10 +979,3 @@ p {
     max-width: 80%;
   }
 }
-
-
-
-
-
-
-

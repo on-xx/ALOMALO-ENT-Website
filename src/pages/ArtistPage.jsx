@@ -1,26 +1,39 @@
 import { Link } from "react-scroll"
 
-import ImageGrid from "../components/ImageGrid"
+import Footer from "../components/Footer"
+import ImageArtistGrid from "../components/ImageArtistGrid"
 import ArtistProfileGallery from "../components/ArtistProfileGallery"
-import { useState } from "react"
+import { useState, useEffect, useRef } from "react"
 
 const ArtistPage = () => {
-    const [selectedArtist, setSelectedArtist] = useState("kangmingil");
-
+    const [selectedArtist, setSelectedArtist] = useState("");
+    const galleryRef = useRef(null);
 
     const handleSelectArtist = (artist) => {
         setSelectedArtist(artist);
     };
 
+    useEffect(() => {
+        if (selectedArtist !== "") {
+            galleryRef.current.scrollIntoView({ behavior: "smooth" });
+        }
+    }, [selectedArtist]);
+
     return (
-        <div id="artist-page">
-            <div className="artist-page container">
-                <Link to="artist-profile-gallery" smooth={true}>
-                    <ImageGrid onSelectArtist={handleSelectArtist} />
-                </Link>
-                <ArtistProfileGallery selectedArtist={selectedArtist} />
+        <>
+            <div id="artist-page">
+                <div className="artist-page container">
+                    <Link to="artist-profile-gallery" smooth={true}>
+                        <ImageArtistGrid onSelectArtist={handleSelectArtist} />
+                    </Link>
+                    <div ref={galleryRef}>
+                        <ArtistProfileGallery selectedArtist={selectedArtist} />
+                    </div>
+                </div>
             </div>
-        </div>
+            <Footer />
+        </>
+        
     )
 }
 
