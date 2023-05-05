@@ -35,10 +35,6 @@ const MainBanner = () => {
                         <img src="./img/main-banner.jpg" alt="" />
                     </SwiperSlide>
 
-                    <SwiperSlide className='main-banner-slide'>
-                        <img src="./img/main-banner.jpg" alt="" />
-                    </SwiperSlide>
-
                 </Swiper>
             </div>
         </div>
