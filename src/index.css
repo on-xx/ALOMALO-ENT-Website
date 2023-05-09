@@ -653,7 +653,7 @@ p {
 
 .img-container {
   margin-left: 10px;
-  min-height: 600px;
+  height: 100%;
   width: 100%;
 }
 
@@ -820,7 +820,7 @@ p {
   }
 
   #image-grid .image-grid {
-    max-width: 95%;
+    max-width: 100%;
   }
 
   .image-grid .image-grid-wrapper .image-grid-item:nth-child(14) {
@@ -899,6 +899,8 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
   }
 
   .artist-small-img img {
@@ -933,6 +935,7 @@ p {
     width: 100%;
     align-items: center;
     margin-top: 20px;
+    margin: 0 auto;
   }
 
   .artist-detail h2 {
