@@ -13,7 +13,9 @@ const ImageArtistGrid = ({ onSelectArtist }) => {
               alt=""
               onClick={() => handleImageClick("goonjo")}
             />
-            <div className="image-grid-overlay">Goonjo</div>
+            <div className="image-grid-overlay">
+              <div className="image-grid-overlay-text">군조</div>
+            </div>
           </div>
 
           <div className="image-grid-item">
@@ -22,7 +24,9 @@ const ImageArtistGrid = ({ onSelectArtist }) => {
               alt=""
               onClick={() => handleImageClick("shinjimin")}
             />
-            <div className="image-grid-overlay">Shin Jimin</div>
+            <div className="image-grid-overlay">
+              <div className="image-grid-overlay-text">신지민</div>
+            </div>
           </div>
 
           <div className="image-grid-item">
@@ -31,7 +35,9 @@ const ImageArtistGrid = ({ onSelectArtist }) => {
               alt=""
               onClick={() => handleImageClick("yangseungho")}
             />
-            <div className="image-grid-overlay">Yang Seungho</div>
+            <div className="image-grid-overlay">
+              <div className="image-grid-overlay-text">양승호</div>
+            </div>
           </div>
 
           <div className="image-grid-item image-grid-artist-logo">

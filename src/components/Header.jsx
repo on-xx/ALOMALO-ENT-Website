@@ -33,11 +33,13 @@ const Header = () => {
               <li className="menu-item">STAR</li>
               <ul className="dropdown-menu">
                 <li>
-                  <Link to="/actor" onClick={toggleHamburger}>ACTOR</Link>
+                  <Link to="/artist" onClick={toggleHamburger}>ARTIST </Link>
                 </li>
+                <li> | </li>
                 <li>
-                  <Link to="/artist" onClick={toggleHamburger}>ARTIST</Link>
+                  <Link to="/actor" onClick={toggleHamburger}> ACTOR</Link>
                 </li>
+
               </ul>
             </ul>
 

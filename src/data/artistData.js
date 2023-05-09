@@ -123,7 +123,7 @@ const artistData = [
     {
         artist : "goonjo",
         korName : "군조",
-        engName : "Goonjo",
+        engName : "Koonzo",
         images : [
             "./img/artists/goonjo/goonjo-1.png",
         ],
@@ -617,6 +617,58 @@ const artistData = [
             "2012년 JTBC '사기꾼들' MC"
         ],
         shorts : [
+            
+        ]
+    },
+
+    {
+        artist : "leehyunkyung",
+        korName : "이현경",
+        engName : "Lee Hyunkyung",
+        images : [
+            "./img/artists/leehyunkyung/leehyunkyung-1.jpg",
+            "./img/artists/leehyunkyung/leehyunkyung-2.jpg",
+            "./img/artists/leehyunkyung/leehyunkyung-3.jpg",
+            "./img/artists/leehyunkyung/leehyunkyung-4.jpg",
+        ],
+        drama : [
+            "2022년 WAVEON <겨울 지나 벚꽃>",
+            "2019년 SBS 아침드라마 <맛 좀 보실래요>",
+            "2018년 KBSN <비켜라 운명아>",
+            "2018년 OCN 월화드라마 <그 남자 오수>",
+            "2017년 KBS2 TV소설<그 여자의 바다>",
+            "2016년 KBS1 일일드라마 <우리집 꿀단지>",
+            "2014년 KBS2 TV소설 <순금의 땅>",
+            "2013년 MBC 일일드라마 <오로라 공주>",
+            "2013년 MBC 수목드라마 <여왕의 교실>",
+            "2013년 MBC 주말드라마 <사랑해서 남주나>",
+            "2012년 OCN 수목드라마 <신의 퀴즈>",
+            "2009년 KBS2 대하드라마 <천추태후>",
+            "2007년 KBS2 아침드라마 <최강! 울엄마>",
+            "2006년 SBS 아침드라마 <있을때 잘해>",
+            "2004년 MBC 수목드라마 <12월의 열대야>",
+            "2002년 SBS 아침드라마  <얼음꽃>",
+            "1993년 KBS 드라마 <일월>"
+        ],
+        movies : [
+            "2014년 <황구> 상우 역",
+            "2007년 <이장과 군수> 항순 역",
+            "2003년 <봄날의 곰을 좋아하세요?> 윤선옥 역",
+            "2001년 <흑수선> 조해옥 역"
+        ],
+        plays : [
+            
+        ],
+        advs : [
+            
+        ],
+        tvshows : [
+            "2018년 MBC <복면가왕> 75회"
+        ],
+        musics : [
+           
+        ],
+        careers : [
             
         ]
     },

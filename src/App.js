@@ -25,6 +25,7 @@ function App() {
         <Route exact path='/' element={
           <>
             <MainBanner />
+            <CardSlider />
             <div className="container-outside">
               <div className="news-card-title-outside">
                 <h1>News & Updates</h1>
@@ -32,7 +33,7 @@ function App() {
               <NewsCards />
             </div>
             
-            <CardSlider />
+            
             <Footer/>
           </>
         }>

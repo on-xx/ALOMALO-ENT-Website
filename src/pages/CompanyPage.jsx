@@ -13,16 +13,17 @@ const CompanyPage = () => {
                     <div className="companypage-img">
                         <img src="../img/company-2.png" alt="company-img" />
                     </div>
-                    <div className="companypage-img">
+                    <div className="companypage-img location">
+                        <h1 className="location-title">Contact Us</h1>
                         <img src="../img/location.png" alt="company-img" />
                     </div>
                 </div>
-            
+
             </div>
             <Footer />
         </>
-        
-        
+
+
     )
 }
 
