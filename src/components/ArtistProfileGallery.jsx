@@ -19,11 +19,11 @@ const ArtistProfileGallery = ({ selectedArtist }) => {
                         <div className="img-container">
                             {<img src={currentArtist.images[0]} id="imageBox" alt="" />}
                         </div>
-                        <div className="artist-small-img flex-row">
+                        {/* <div className="artist-small-img flex-row">
                             {currentArtist.images.map((image, index) => (
                                 <img key={index} src={image} alt={`Image ${index}`} onClick={(e) => galleryHandler(e.target)} />
                             ))}
-                        </div>
+                        </div> */}
                     </div>
 
                     <div className="artist-detail flex-column">

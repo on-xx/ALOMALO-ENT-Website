@@ -10,7 +10,7 @@ import NewsPage from './pages/NewsPage';
 import AuditionPage from './pages/AuditionPage';
 import ActorPage from './pages/ActorPage';
 import Footer from './components/Footer';
-import FooterActorPage from './components/FooterActorPage';
+import MultimediaPage from './pages/MultimediaPage';
 
 import NewsCards from './components/NewsCards';
 
@@ -43,6 +43,7 @@ function App() {
         <Route path='/company' element={<CompanyPage />}/>
         <Route path='/news' element={<NewsPage />}/>
         <Route path='/audition' element={<AuditionPage />}/>
+        <Route path='/multimedia' element={<MultimediaPage />}/>
         
       </Routes>
     </Router>

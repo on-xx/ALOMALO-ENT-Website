@@ -5,9 +5,7 @@ const artistData = [
         engName : "Lee Sang Woo",
         images : [
             "./img/artists/leesangwoo/leesangwoo-1.jpg",
-            "./img/artists/leesangwoo/leesangwoo-2.jpg",
-            "./img/artists/leesangwoo/leesangwoo-3.jpg",
-            "./img/artists/leesangwoo/leesangwoo-4.jpg",
+            
         ],
         drama : [
             "2022년 TV조선 주말드라마 '빨간풍선'",
@@ -60,9 +58,7 @@ const artistData = [
         engName : "Kang Mingil",
         images : [
             "./img/artists/kangmingil/kangmingil-1.jpg",
-            "./img/artists/kangmingil/kangmingil-2.jpg",
-            "./img/artists/kangmingil/kangmingil-3.jpg",
-            "./img/artists/kangmingil/kangmingil-4.jpg",
+            
         ],
         plays : [
             "2018년 '라이어' 포터형사 역",
@@ -83,9 +79,7 @@ const artistData = [
         engName : "Kwak Hyunjun",
         images : [
             "./img/artists/kwakhyunjun/kwakhyunjun-1.jpg",
-            "./img/artists/kwakhyunjun/kwakhyunjun-2.jpg",
-            "./img/artists/kwakhyunjun/kwakhyunjun-3.jpg",
-            "./img/artists/kwakhyunjun/kwakhyunjun-4.jpg",
+            
         ],
         drama : [
             "2021 '뭐 드실래요'",
@@ -125,7 +119,7 @@ const artistData = [
         korName : "군조",
         engName : "Koonzo",
         images : [
-            "./img/artists/goonjo/goonjo-1.png",
+            "./img/artists/goonjo/goonjo-1.jpg",
         ],
         drama : [
             
@@ -175,12 +169,10 @@ const artistData = [
     {
         artist : "kimminki",
         korName : "김민기",
-        engName : "Kim Minki",
+        engName : "Kim Mingi",
         images : [
             "./img/artists/kimminki/kimminki-1.jpg",
-            "./img/artists/kimminki/kimminki-2.jpg",
-            "./img/artists/kimminki/kimminki-3.jpg",
-            "./img/artists/kimminki/kimminki-4.jpg",
+            
         ],
         drama : [
             "2022년 TVN 수목드라마 '슈룹'",
@@ -212,13 +204,11 @@ const artistData = [
 
     {
         artist : "kimjungmin",
-        korName : "김정민",
-        engName : "Kim Junmin",
+        korName : "한아영",
+        engName : "Han Ahyoung",
         images : [
             "./img/artists/kimjungmin/kimjungmin-1.jpg",
-            "./img/artists/kimjungmin/kimjungmin-2.jpg",
-            "./img/artists/kimjungmin/kimjungmin-3.jpg",
-            "./img/artists/kimjungmin/kimjungmin-4.jpg",
+            
         ],
         drama : [
             "2022년 웹드라마 '준과준'",
@@ -251,9 +241,7 @@ const artistData = [
         engName : "Son Hwaryeong",
         images : [
             "./img/artists/sunhwaryeong/sunhwaryeong-1.jpg",
-            "./img/artists/sunhwaryeong/sunhwaryeong-2.jpg",
-            "./img/artists/sunhwaryeong/sunhwaryeong-3.jpg",
-            "./img/artists/sunhwaryeong/sunhwaryeong-4.jpg",
+            
         ],
         drama : [
             "2022년 ENA 수목드라마 '얼어죽을 연애따위'",
@@ -316,9 +304,7 @@ const artistData = [
         engName : "Shin Jimin",
         images : [
             "./img/artists/shinjimin/shinjimin-1.jpg",
-            "./img/artists/shinjimin/shinjimin-2.jpg",
-            "./img/artists/shinjimin/shinjimin-3.jpg",
-            "./img/artists/shinjimin/shinjimin-4.jpg",
+            
         ],
         drama : [
             
@@ -363,9 +349,7 @@ const artistData = [
         engName : "Shim Taeyoung",
         images : [
             "./img/artists/shimtaeyoung/shimtaeyoung-1.jpg",
-            "./img/artists/shimtaeyoung/shimtaeyoung-2.jpg",
-            "./img/artists/shimtaeyoung/shimtaeyoung-3.jpg",
-            "./img/artists/shimtaeyoung/shimtaeyoung-4.jpg",
+            
         ],
         drama : [
             "2020년 카카오M '아직 낫 서른'"
@@ -405,9 +389,7 @@ const artistData = [
         engName : "Ahn Yein",
         images : [
             "./img/artists/ahnyein/ahnyein-1.jpg",
-            "./img/artists/ahnyein/ahnyein-2.jpg",
-            "./img/artists/ahnyein/ahnyein-3.jpg",
-            "./img/artists/ahnyein/ahnyein-4.jpg",
+            
         ],
         drama : [
             "2019년 SBS 일일드라마 '맛 좀 보실래요'",
@@ -442,9 +424,7 @@ const artistData = [
         engName : "Yang Seungho",
         images : [
             "./img/artists/yangseungho/yangseungho-1.jpg",
-            "./img/artists/yangseungho/yangseungho-2.jpg",
-            "./img/artists/yangseungho/yangseungho-3.jpg",
-            "./img/artists/yangseungho/yangseungho-4.jpg",
+            
         ],
         drama : [
             "2013 MBC every1 '뮤직 드라마/더 드라마틱'"
@@ -497,9 +477,7 @@ const artistData = [
         engName : "Yoon Haebin",
         images : [
             "./img/artists/yoonhaebin/yoonhaebin-1.jpg",
-            "./img/artists/yoonhaebin/yoonhaebin-2.jpg",
-            "./img/artists/yoonhaebin/yoonhaebin-3.jpg",
-            "./img/artists/yoonhaebin/yoonhaebin-4.jpg",
+            
         ],
         drama : [
             "2023년 JTBC '날아올라라 나비'",
@@ -562,9 +540,7 @@ const artistData = [
         engName : "Lee Minwoo",
         images : [
             "./img/artists/leeminwoo/leeminwoo-1.jpg",
-            "./img/artists/leeminwoo/leeminwoo-2.jpg",
-            "./img/artists/leeminwoo/leeminwoo-3.jpg",
-            "./img/artists/leeminwoo/leeminwoo-4.jpg",
+            
         ],
         drama : [
             "2022년 TVN 토일드라마 '작은 아씨들'",
@@ -627,9 +603,7 @@ const artistData = [
         engName : "Lee Hyunkyung",
         images : [
             "./img/artists/leehyunkyung/leehyunkyung-1.jpg",
-            "./img/artists/leehyunkyung/leehyunkyung-2.jpg",
-            "./img/artists/leehyunkyung/leehyunkyung-3.jpg",
-            "./img/artists/leehyunkyung/leehyunkyung-4.jpg",
+            
         ],
         drama : [
             "2022년 WAVEON <겨울 지나 벚꽃>",
@@ -664,6 +638,122 @@ const artistData = [
         ],
         tvshows : [
             "2018년 MBC <복면가왕> 75회"
+        ],
+        musics : [
+           
+        ],
+        careers : [
+            
+        ]
+    },
+
+    {
+        artist : "leegaryung",
+        korName : "이가령",
+        engName : "Lee Garyung",
+        images : [
+            "./img/artists/leegaryung/leegaryung-1.jpg",
+            
+        ],
+        drama : [
+            "2023년 ENA 월화드라마 <종이달>",
+            "2022년 TV CHOSUN 주말드라마 <결혼작사 이혼작곡 3>",
+            "2021년 TV CHOSUN 주말드라마 <결혼작사 이혼작곡 2>",
+            "2021년 TV CHOSUN 주말드라마 <결혼작사 이혼작곡 >",
+            "2019년 KBS2 수목드라마 <왜그래 풍상씨>",
+            "2018년 MBC 수목드라마 <로봇이 아니야>",
+            "2018년 JTBC 월화드라마 <뷰티 인사이드>",
+            "2017년 SBS 주말드라마 <언니는 살아있다!>",
+            "2016년 MBC 월화드라마 <몬스터>",
+            "2016년 KBS2 주말드라마 <월계수 양복점 신사들>",
+            "2015년 MBC 일일드라마 <불굴의 차여사>",
+            "2014년 MBC 일일드라마 <압구정 백야>",
+            "2013년 MBC 일일드라마 <오로라 공주>",
+            "2012년 KBS2 주말드라마 <내 딸 서영이>",
+            "2012년 SBS 주말드라마 <신사의 품격>",
+        ],
+        movies : [
+            
+        ],
+        plays : [
+            
+        ],
+        advs : [
+            "LG전자",
+            "롯데 슈퍼배송",
+            "구몬",
+            "사송신도시",
+            "시크폭스"
+        ],
+        tvshows : [
+            "2022년 TV CHOSUN <개나리학당>",
+            "2022년 JTBC 오늘부터 잇(IT)생",
+            "2021년 TV CHOSUN <뽕숭아학당>",
+            "2021년 TV CHOSUN <식객, 허영만의 백반기행>",
+            "2021년 TV CHOSUN <골프왕>",
+            "2021년 SBS <워맨스가 필요해>",
+        ],
+        musics : [
+           
+        ],
+        careers : [
+            
+        ]
+    },
+
+    {
+        artist : "shimhyungtak",
+        korName : "심형탁",
+        engName : "Shim Hyungtak",
+        images : [
+            "./img/artists/shimhyungtak/shimhyungtak-1.jpg",
+        ],
+        drama : [
+            "2021년 OCN 토일드라마 <타임즈>",
+            "2019년 TVN 토일드라마 <날 녹여주오>",
+            "2019년 TVN 수목드라마 <진심이 닿다>",
+            "2018년 SBS 주말드라마 <착한마녀전>",
+            "2017년 MBC 주말드라마 <밥상 차리는 남자>",
+            "2017년 SBS 월화드라마 <엽기적인 그녀>",
+            "2016년 TVN 월화드라마 <싸우자 귀신아>",
+            "2016년 KBS2 주말드라마 <아이가 다섯>",
+            "2015년 SBS 주말드라마 <이혼변호사는 연애중>",
+            "2015년 MNET 금요드라마 <칠전팔기 구해라>",
+            "2014년 MBC 일일드라마 <압구정 백야>",
+            "2013년 TVN 목요드라마 <식샤를 합시다>",
+            "2012년 KBS2 주말드라마 <내 딸 서영이>",
+            "2011년 KBS2 월화드라마 <브레인>",
+            "2011년 MBC 일일드라마 <남자를 믿었네>",
+            "2010년 SBS 일일드라마 <세자매>",
+            "2009년 KBS2 월화드라마 <공부의 신>",
+            "2008년 MBC 시트콤 <크크섬의 비밀>",
+            "2002년 SBS 대하드라마  <야인시대>",
+            "1999년 MBC 시트콤 <남자 셋, 여자 셋>"
+        ],
+        movies : [
+            "2005년 <연애술사> 특별출연 새 남자친구 역",
+            "2004년 <인형사> 태승 역",
+        ],
+        plays : [
+            
+        ],
+        advs : [
+            "조이온다",
+            "씨스팡",
+            "모두이사",
+            "드래곤 퀘스트 11",
+            "열혈강오 M",
+            "천군 : 무한쟁탈전",
+            "우리은행",
+            "한화생명",
+            "르카프 1998 [데뷔]"
+        ],
+        tvshows : [
+            "2020년 카카오TV <내 꿈은 라이언>",
+            "2020년 MBN <오지고 시즌2> 아마존 of 아마존",
+            "2016년 MBC <진짜 사나이>",
+            "2016년 MBC <무한도전> 마션",
+            "2015년 JTBC <마리와 나>",
         ],
         musics : [
            

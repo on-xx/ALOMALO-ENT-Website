@@ -11,10 +11,9 @@ const ImageArtistGrid = ({ onSelectArtist }) => {
             <img
               src="./img/gridimg/goonjo.jpg"
               alt=""
-              onClick={() => handleImageClick("goonjo")}
             />
-            <div className="image-grid-overlay">
-              <div className="image-grid-overlay-text">군조</div>
+            <div className="image-grid-overlay" onClick={() => handleImageClick("goonjo")}>
+              <div className="image-grid-overlay-text">KOONJO</div>
             </div>
           </div>
 
@@ -22,10 +21,10 @@ const ImageArtistGrid = ({ onSelectArtist }) => {
             <img
               src="./img/gridimg/shinjimin.jpg"
               alt=""
-              onClick={() => handleImageClick("shinjimin")}
+              
             />
-            <div className="image-grid-overlay">
-              <div className="image-grid-overlay-text">신지민</div>
+            <div className="image-grid-overlay" onClick={() => handleImageClick("shinjimin")}>
+              <div className="image-grid-overlay-text">SHIN JIMIN</div>
             </div>
           </div>
 
@@ -33,15 +32,11 @@ const ImageArtistGrid = ({ onSelectArtist }) => {
             <img
               src="./img/gridimg/yangseungho.jpg"
               alt=""
-              onClick={() => handleImageClick("yangseungho")}
+              
             />
-            <div className="image-grid-overlay">
-              <div className="image-grid-overlay-text">양승호</div>
+            <div className="image-grid-overlay" onClick={() => handleImageClick("yangseungho")}>
+              <div className="image-grid-overlay-text">YANG SEUNGHO</div>
             </div>
-          </div>
-
-          <div className="image-grid-item image-grid-artist-logo">
-            <img src="./img/logo2.png" alt="" />
           </div>
         </div>
       </div>

@@ -29,19 +29,17 @@ const Header = () => {
               <li className="menu-item">COMPANY</li>
             </Link>
 
-            <ul className="dropdown">
-              <li className="menu-item">STAR</li>
-              <ul className="dropdown-menu">
-                <li>
-                  <Link to="/artist" onClick={toggleHamburger}>ARTIST </Link>
-                </li>
-                <li> | </li>
-                <li>
-                  <Link to="/actor" onClick={toggleHamburger}> ACTOR</Link>
-                </li>
+            <Link style={{ textDecoration: "none" }} to="/artist" onClick={toggleHamburger}>
+              <li className="menu-item">ARTISTS</li>
+            </Link>
 
-              </ul>
-            </ul>
+            <Link style={{ textDecoration: "none" }} to="/actor" onClick={toggleHamburger}>
+              <li className="menu-item">ACTORS</li>
+            </Link>
+
+            <Link style={{ textDecoration: "none" }} to="/multimedia" onClick={toggleHamburger}>
+              <li className="menu-item">MULTIMEDIA</li>
+            </Link>
 
             <Link style={{ textDecoration: "none" }} to="/news" onClick={toggleHamburger}>
               <li className="menu-item">NEWS</li>
