@@ -94,9 +94,9 @@ p {
 .header-menu-wrapper li {
   position: relative;
   margin: 0 10px;
-  padding: 5px 20px;
+  padding: 5px 10px;
   font-weight: 700;
-  font-size: 22px;
+  font-size: 20px;
   color: var(--menu-textColor);
   transition: 0.5s ease;
   border-bottom: 3px solid transparent;
@@ -566,6 +566,7 @@ p {
   font-weight: 300;
   text-align: center;
   color: var(--menu-textColor);
+  font-size: 14px;
 }
 /* End Footer */
 
@@ -714,6 +715,7 @@ p {
   height: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
   gap: 10px;
   margin-bottom: 100px;
 }
@@ -784,8 +786,8 @@ p {
   .hamburger {
     display: block;
     position: absolute;
-    left: 18px;
-    top: 35px;
+    left: 0.7em;
+    top: 1em;
     z-index: 2222;
   }
 
@@ -1036,5 +1038,35 @@ p {
 
   #footer .footer {
     max-width: 80%;
+  }
+}
+
+/* Tablets */
+
+@media all and (min-width: 769px) and (max-width: 1024px) {
+  .container {
+    max-width: 90%;
+  }
+
+  #main-banner .main-banner {
+    max-height: 400px;
+  }
+
+  .news-cards .news-cards-wrapper {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .image-grid-overlay .image-grid-overlay-text {
+    padding: 5px;
+  }
+
+  .image-grid .image-grid-wrapper {
+    grid-template-columns: repeat(4, 1fr);
+    
+  }
+
+  .multimediapage .multimedia-video-main {
+    height: 400px;
+    margin-bottom: 10px;
   }
 }
