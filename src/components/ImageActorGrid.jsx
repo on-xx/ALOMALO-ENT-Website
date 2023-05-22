@@ -33,7 +33,7 @@ const ImageActorGrid = ({ onSelectArtist }) => {
               className="image-grid-overlay"
               onClick={() => handleImageClick("kimminki")}
             >
-              <div className="image-grid-overlay-text">김민길</div>
+              <div className="image-grid-overlay-text">김민기</div>
             </div>
           </div>
 
