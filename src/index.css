@@ -783,6 +783,10 @@ p {
     left: 0;
   }
 
+  .main-banner-slide img {
+    object-fit: contain;
+  }
+
   .hamburger {
     display: block;
     position: absolute;
