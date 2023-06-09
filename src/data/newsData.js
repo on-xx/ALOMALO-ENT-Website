@@ -54,6 +54,12 @@ const newsData = [
     img: "./img/newsupdates/news-alomalo.jpg",
     title: "알로말로X휴메인 합병→이상우 이민우 신지민 양승호 한솥밥[공식]",
   },
+  {
+    id: 10,
+    url: "https://entertain.naver.com/read?oid=421&aid=0006856113",
+    img: "./img/newsupdates/news-alomalo-2.jpg",
+    title: "이가령, 알로말로 휴메인 엔터와 전속계약…이상우·심형탁과 한솥밥",
+  },
 ];
 
 export default newsData;
