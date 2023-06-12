@@ -1,4 +1,4 @@
-import NewsCards from "../components/NewsCards"
+import NewsCardsMain from "../components/NewsCardsMain"
 import Footer from "../components/Footer"
 
 const NewsPage = () => {
@@ -9,7 +9,7 @@ const NewsPage = () => {
                     <div className="news-card-title-outside">
                         <h1>News & Updates</h1>
                     </div>
-                    <NewsCards />
+                    <NewsCardsMain />
                 </div>
             </div>
             <Footer />

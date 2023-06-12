@@ -18,8 +18,8 @@ const NewsCardsItem = () => {
   }, []);
 
   const slicedNewsData = isMobile
-    ? reversedNewsData.slice(0, 4)
-    : reversedNewsData;
+    ? reversedNewsData.slice(0, 4) : reversedNewsData.slice(0, 8)
+    
 
   return slicedNewsData.map((data) => {
     return (
