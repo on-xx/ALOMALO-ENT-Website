@@ -3,7 +3,7 @@ import { useState, useEffect, useRef  } from "react";
 
 const MultimediaPage = () => {
 
-  const [selectedVideo, setSelectedVideo] = useState("Mc5g4k_AX8w");
+  const [selectedVideo, setSelectedVideo] = useState("a9YNYq8chXc");
   const videoMainRef = useRef(null);
 
 
@@ -38,6 +38,14 @@ const MultimediaPage = () => {
               <h1>LIST</h1>
             </div>
             <div className="multimedia-video-list-wrapper">
+            <div className="multimedia-video-list-card" onClick={() => handleVideoClick("a9YNYq8chXc")}>
+                
+                <img
+                  src="https://img.youtube.com/vi/a9YNYq8chXc/mqdefault.jpg"
+                  alt=""
+                />
+                <p>우린 그걸 4차원이라 하기로 했어요 모두를 웃겨 놓고 정작 본인만 무표정인 게 ㄹㅇ킬포</p>
+              </div>
               <div className="multimedia-video-list-card" onClick={() => handleVideoClick("Mc5g4k_AX8w")}>
                 
                 <img
