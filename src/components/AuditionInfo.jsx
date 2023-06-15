@@ -24,7 +24,7 @@ const AuditionInfo = () => {
                             <h3>지원 방법</h3>
                         </div>
                         <div className="audition-info-card-content">
-                            <p>메일 접수&nbsp;&nbsp; amhment@naver.com</p>
+                            <p>메일 접수&nbsp;&nbsp; alomalohm@naver.com</p>
                         </div>
                     </div>
                 </div>

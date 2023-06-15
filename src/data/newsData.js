@@ -60,6 +60,12 @@ const newsData = [
     img: "./img/newsupdates/news-alomalo-2.jpg",
     title: "이가령, 알로말로 휴메인 엔터와 전속계약…이상우·심형탁과 한솥밥",
   },
+  {
+    id: 11,
+    url: "https://www.topstarnews.net/news/articleView.html?idxno=15351379",
+    img: "./img/newsupdates/news-sht-2.jpg",
+    title: "'강심장 리그' 심형탁, 예비 신부 '사야'와의 연애 초반 '번역기'로만 대화",
+  },
 ];
 
 export default newsData;

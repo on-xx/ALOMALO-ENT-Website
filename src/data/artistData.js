@@ -554,6 +554,30 @@ const artistData = [
     musics: [],
     careers: [],
   },
+
+  {
+    artist: "kimsohee",
+    korName: "김소희",
+    engName: "Kim Sohee",
+    images: ["./img/artists/kimsohee/kimsohee-1.jpg"],
+    drama: [
+      
+    ],
+    movies: [],
+    plays: [],
+    advs: [],
+    tvshows: [
+    ],
+    musics: [],
+    careers: [],
+    profile: [
+      "성신여대 미디어영상연기학과",
+      "경상도 사투리",
+      "치어리닝",
+      "유도",
+      "수영"
+    ]
+  },
 ];
 
 export default artistData;

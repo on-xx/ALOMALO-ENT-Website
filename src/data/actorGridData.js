@@ -15,6 +15,11 @@ const actorGridData = [
     engname: 'kimminki'
   },
   {
+    image: './img/gridimg/kimsohee.jpg',
+    name: '김소희',
+    engname: 'kimsohee'
+  },
+  {
     image: './img/gridimg/sunhwaryeong.jpg',
     name: '손화령',
     engname: 'sunhwaryeong'
