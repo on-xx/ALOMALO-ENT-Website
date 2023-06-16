@@ -3,7 +3,7 @@ import { useState, useEffect, useRef  } from "react";
 
 const MultimediaPage = () => {
 
-  const [selectedVideo, setSelectedVideo] = useState("https://www.youtube.com/embed/a9YNYq8chXc");
+  const [selectedVideo, setSelectedVideo] = useState("5P7rKxNSpxk");
   const videoMainRef = useRef(null);
 
 
@@ -27,7 +27,7 @@ const MultimediaPage = () => {
           <div className="multimedia-video-main" >
             <iframe
               className="video-embed"
-              src={selectedVideo}
+              src={`https://www.youtube.com/embed/${selectedVideo}`}
               frameborder="0"
               allowfullscreen
             ></iframe>
@@ -39,17 +39,15 @@ const MultimediaPage = () => {
             </div>
             <div className="multimedia-video-list-wrapper">
 
-              {/* <div className="multimedia-video-list-card" onClick={() => handleVideoClick("https://tv.naver.com/embed/36959707?autoPlay=true")}>
+              <div className="multimedia-video-list-card" onClick={() => handleVideoClick("5P7rKxNSpxk")}>
                 <img
-                  src="https://phinf.pstatic.net/tvcast/20230614_175/uZay…e7b-b78a-bd2f231dc68b.jpg?type=f172_97_blend_webp"
+                  src="https://img.youtube.com/vi/5P7rKxNSpxk/mqdefault.jpg"
                   alt=""
                 />
-                <p>
-                  [#군조율동조합] 월드스타가 되기 위해 회장님에게 구걸한 ssul.
-                </p>
-              </div> */}
+                <p>심형탁, 아내와 결혼을 결심하게 된 계기♥</p>
+              </div>
 
-              <div className="multimedia-video-list-card" onClick={() => handleVideoClick("https://www.youtube.com/embed/a9YNYq8chXc")}>
+              <div className="multimedia-video-list-card" onClick={() => handleVideoClick("a9YNYq8chXc")}>
                 <img
                   src="https://img.youtube.com/vi/a9YNYq8chXc/mqdefault.jpg"
                   alt=""
@@ -57,7 +55,7 @@ const MultimediaPage = () => {
                 <p>우린 그걸 4차원이라 하기로 했어요 모두를 웃겨 놓고 정작 본인만 무표정인 게 ㄹㅇ킬포</p>
               </div>
 
-              <div className="multimedia-video-list-card" onClick={() => handleVideoClick("https://www.youtube.com/embed/Mc5g4k_AX8w")}>                
+              <div className="multimedia-video-list-card" onClick={() => handleVideoClick("Mc5g4k_AX8w")}>                
                 <img
                   src="https://img.youtube.com/vi/Mc5g4k_AX8w/mqdefault.jpg"
                   alt=""
@@ -65,7 +63,7 @@ const MultimediaPage = () => {
                 <p>신지민(SHIN JIMIN) 'Sympathy' Official MV</p>
               </div>
 
-              <div className="multimedia-video-list-card" onClick={() => handleVideoClick("https://www.youtube.com/embed/n3iOJeeZLcQ")}>
+              <div className="multimedia-video-list-card" onClick={() => handleVideoClick("n3iOJeeZLcQ")}>
                 <img
                   src="https://img.youtube.com/vi/n3iOJeeZLcQ/mqdefault.jpg"
                   alt=""

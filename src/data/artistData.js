@@ -2,7 +2,7 @@ const artistData = [
   {
     artist: "leesangwoo",
     korName: "이상우",
-    engName: "Lee Sang Woo",
+    engName: "Lee SangWoo",
     images: ["./img/artists/leesangwoo/leesangwoo-1.jpg"],
     drama: [
       "2022년 TV조선 주말드라마 '빨간풍선'",
@@ -572,10 +572,7 @@ const artistData = [
     careers: [],
     profile: [
       "성신여대 미디어영상연기학과",
-      "경상도 사투리",
-      "치어리닝",
-      "유도",
-      "수영"
+      "경상도 사투리, 치어리닝, 유도, 수영",
     ]
   },
 ];

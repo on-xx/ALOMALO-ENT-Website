@@ -1,4 +1,4 @@
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Header from "./components/Header";
 import MainBanner from "./components/MainBanner";
@@ -16,7 +16,7 @@ import NewsCards from "./components/NewsCards";
 
 function App() {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <Header />
       <Routes>
         <Route
@@ -44,7 +44,7 @@ function App() {
         <Route path="/audition" element={<AuditionPage />} />
         <Route path="/multimedia" element={<MultimediaPage />} />
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 
