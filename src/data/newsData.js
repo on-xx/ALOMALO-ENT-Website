@@ -66,6 +66,12 @@ const newsData = [
     img: "./img/newsupdates/news-sht-2.jpg",
     title: "'강심장 리그' 심형탁, 예비 신부 '사야'와의 연애 초반 '번역기'로만 대화",
   },
+  {
+    id: 12,
+    url: "https://entertain.naver.com/read?oid=144&aid=0000896947",
+    img: "./img/newsupdates/news-lgr-1.jpg",
+    title: "이가령, 자선패션쇼 섰다",
+  },
 ];
 
 export default newsData;

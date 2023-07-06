@@ -34,11 +34,7 @@ const actorGridData = [
     name: '심형탁',
     engname: 'shimhyungtak'
   },
-  {
-    image: './img/gridimg/ahnyein.jpg',
-    name: '안예인',
-    engname: 'ahnyein'
-  },
+  
   {
     image: './img/gridimg/yoonhaebin.jpg',
     name: '윤해빈',

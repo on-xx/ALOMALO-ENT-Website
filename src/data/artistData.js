@@ -276,24 +276,7 @@ const artistData = [
     careers: [],
   },
 
-  {
-    artist: "ahnyein",
-    korName: "안예인",
-    engName: "Ahn Yein",
-    images: ["./img/artists/ahnyein/ahnyein-1.jpg"],
-    drama: [
-      "2019년 SBS 일일드라마 '맛 좀 보실래요'",
-      "2017년 TVN 수목드라마 '슬기로운 감빵생활'",
-      "2016년 KBS 월요드라마 '마음의 소리'",
-      "2014년 TVN 월화드라마 '고교처세왕'",
-    ],
-    movies: ["2018년 '어게인' 조민주 역", "2018년 '수상한 이웃' 특별출연"],
-    plays: ["2022년 '임대 아파트'"],
-    advs: [],
-    tvshows: [],
-    musics: [],
-    careers: [],
-  },
+  
 
   {
     artist: "yangseungho",
