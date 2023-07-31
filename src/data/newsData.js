@@ -64,13 +64,26 @@ const newsData = [
     id: 11,
     url: "https://www.topstarnews.net/news/articleView.html?idxno=15351379",
     img: "./img/newsupdates/news-sht-2.jpg",
-    title: "'강심장 리그' 심형탁, 예비 신부 '사야'와의 연애 초반 '번역기'로만 대화",
+    title:
+      "'강심장 리그' 심형탁, 예비 신부 '사야'와의 연애 초반 '번역기'로만 대화",
   },
   {
     id: 12,
     url: "https://entertain.naver.com/read?oid=144&aid=0000896947",
     img: "./img/newsupdates/news-lgr-1.jpg",
     title: "이가령, 자선패션쇼 섰다",
+  },
+  {
+    id: 13,
+    url: "https://n.news.naver.com/entertain/article/108/0003170570",
+    img: "./img/newsupdates/news-lgr-2.jpeg",
+    title: "이가령 '산뜻한 미소'[★포토]",
+  },
+  {
+    id: 14,
+    url: "https://sports.khan.co.kr/entertainment/sk_index.html?art_id=202307311026003&sec_id=540101&pt=nvnm",
+    img: "./img/newsupdates/news-sht-3.jpeg",
+    title: "[화보] 심형탁 ‘18세 연하 ♥사야’ 도라에몽의 선물",
   },
 ];
 
