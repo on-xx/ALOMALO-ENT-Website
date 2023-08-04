@@ -85,6 +85,30 @@ const newsData = [
     img: "./img/newsupdates/news-sht-3.jpeg",
     title: "[화보] 심형탁 ‘18세 연하 ♥사야’ 도라에몽의 선물",
   },
+  {
+    id: 15,
+    url: "https://www.newsen.com/news_view.php?uid=202307181003100410",
+    img: "./img/newsupdates/news-sht-4.jpeg",
+    title: "심형탁, 18살 연하 ♥사야 2세 낳나? “자녀운 들어왔다",
+  },
+  {
+    id: 16,
+    url: "https://tenasia.hankyung.com/tv-drama/article/2023072597924",
+    img: "./img/newsupdates/news-sht-5.jpeg",
+    title: "이상우, 총각 파티서 ♥김소연 보다 심형탁? 첫 이벤트, 안 해봤는데…",
+  },
+  {
+    id: 17,
+    url: "https://tenasia.hankyung.com/tv-drama/article/2023072475914",
+    img: "./img/newsupdates/news-gj-1.jpeg",
+    title: "'쇼킹나이트' 군조, 오디션 도전장…90년대 힙스터 재연 '무대 장악'",
+  },
+  {
+    id: 18,
+    url: "https://sports.khan.co.kr/entertainment/sk_index.html?art_id=202308011020013&sec_id=540201&pt=nv",
+    img: "./img/newsupdates/news-sht-6.jpeg",
+    title: "심형탁, ‘진짜’ 가족 선물에 감동의 눈물(신랑수업)",
+  },
 ];
 
 export default newsData;
