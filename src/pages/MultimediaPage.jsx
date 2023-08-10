@@ -2,7 +2,7 @@ import Footer from "../components/Footer";
 import { useState, useEffect, useRef } from "react";
 
 const MultimediaPage = () => {
-  const [selectedVideo, setSelectedVideo] = useState("7DHswDsTf98");
+  const [selectedVideo, setSelectedVideo] = useState("-FLH3QH5WQg");
   const videoMainRef = useRef(null);
 
   const handleVideoClick = (videoId) => {
@@ -36,6 +36,61 @@ const MultimediaPage = () => {
               <h1>LIST</h1>
             </div>
             <div className="multimedia-video-list-wrapper">
+              <div
+                className="multimedia-video-list-card"
+                onClick={() => handleVideoClick("-FLH3QH5WQg")}
+              >
+                <img
+                  src="https://img.youtube.com/vi/-FLH3QH5WQg/mqdefault.jpg"
+                  alt=""
+                />
+                <p className="multimedia-title">
+                  [#신랑수업] (울컥) ＂드디어 여기까지 왔다＂ 사야♥형탁 일본
+                  결혼식! 꽃길만 걸으세요 #심형탁 #결혼 | 요즘남자라이프
+                  신랑수업 76 회
+                </p>
+              </div>
+              <div
+                className="multimedia-video-list-card"
+                onClick={() => handleVideoClick("Vz02z5sh0aw")}
+              >
+                <img
+                  src="https://img.youtube.com/vi/Vz02z5sh0aw/mqdefault.jpg"
+                  alt=""
+                />
+                <p className="multimedia-title">
+                  [선공개] 달콤한 키스로 영원을 맹세하며 공식적으로 부부가 된
+                  형탁♥사야 | 요즘남자라이프 신랑수업 76 회
+                </p>
+              </div>
+              <div
+                className="multimedia-video-list-card"
+                onClick={() => handleVideoClick("_BhBxbYVQy4")}
+              >
+                <img
+                  src="https://img.youtube.com/vi/_BhBxbYVQy4/mqdefault.jpg"
+                  alt=""
+                />
+                <p className="multimedia-title">
+                  [#신랑수업] 장인어른 만나 뚝딱거리는 심형탁! 사야 부모님이
+                  말하는 심씨 첫인상은? #아저씨 #심형탁 | 요즘남자라이프
+                  신랑수업 75 회
+                </p>
+              </div>
+              <div
+                className="multimedia-video-list-card"
+                onClick={() => handleVideoClick("fBdNAvbCO5U")}
+              >
+                <img
+                  src="https://img.youtube.com/vi/fBdNAvbCO5U/mqdefault.jpg"
+                  alt=""
+                />
+                <p className="multimedia-title">
+                  [선공개] 에몽이의 진심어린 응원에 폭풍 오열한 심형탁╥﹏╥ |
+                  요즘남자라이프 신랑수업 74 회
+                </p>
+              </div>
+
               <div
                 className="multimedia-video-list-card"
                 onClick={() => handleVideoClick("7DHswDsTf98")}

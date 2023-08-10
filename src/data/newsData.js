@@ -109,6 +109,32 @@ const newsData = [
     img: "./img/newsupdates/news-sht-6.jpeg",
     title: "심형탁, ‘진짜’ 가족 선물에 감동의 눈물(신랑수업)",
   },
+  {
+    id: 19,
+    url: "http://www.heraldpop.com/view.php?ud=202308070735524968065_1",
+    img: "./img/newsupdates/news-sht-7.jpeg",
+    title: "심형탁♥사야 로맨틱 日결혼식 공개 '천사와 함께 영원히'",
+  },
+  {
+    id: 20,
+    url: "http://www.koreastocknews.com/news/articleView.html?idxno=92892",
+    img: "./img/newsupdates/news-pg-1.jpeg",
+    title: "트로트 가수 풍금, 심형탁과 한솥밥 식구 된다!",
+  },
+  {
+    id: 21,
+    url: "https://www.starnewskorea.com/stview.php?no=2023081008251578484",
+    img: "./img/newsupdates/news-sht-8.jpeg",
+    title:
+      "'사야♥' 심형탁, 日 결혼식 중 장인 이벤트에 '오열'..큰절 화답 [종합] (신랑수업)",
+  },
+  {
+    id: 22,
+    url: "https://mydaily.co.kr/page/view/2023080920290706917",
+    img: "./img/newsupdates/news-sht-9.jpeg",
+    title:
+      "'의리남' 이상우, 심형탁♥사야 日 결혼식 참석→축사까지…'착하고 성실한 형' [신랑수업](MD리뷰)",
+  },
 ];
 
 export default newsData;
