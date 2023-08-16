@@ -19,18 +19,6 @@ const newsData = [
     title: "심리적 격변…'빨간 풍선' 이상우, 불륜 발각 후 홍수현 미행",
   },
   {
-    id: 4,
-    url: "https://www.starnewskorea.com/stview.php?no=2023030911391130003",
-    img: "./img/newsupdates/news-update-4.jpg",
-    title: "블랙 승호, AOA 출신 신지민 새 출발 응원..팬 미팅 참석",
-  },
-  {
-    id: 5,
-    url: "https://tenasia.hankyung.com/tv-drama/article/2023031632574",
-    img: "./img/newsupdates/news-update-5.jpg",
-    title: "'AOA' 출신 신지민, 데뷔 후 첫 팬미팅 개최",
-  },
-  {
     id: 6,
     url: "https://entertain.naver.com/read?oid=396&aid=0000640691",
     img: "./img/newsupdates/news-khj.jpg",
@@ -47,12 +35,6 @@ const newsData = [
     url: "https://entertain.naver.com/read?oid=003&aid=0011850772",
     img: "./img/newsupdates/news-sht.jpg",
     title: "새신랑 심형탁, 알로말로 휴메인과 동행",
-  },
-  {
-    id: 9,
-    url: "https://entertain.naver.com/read?oid=609&aid=0000701272",
-    img: "./img/newsupdates/news-alomalo.jpg",
-    title: "알로말로X휴메인 합병→이상우 이민우 신지민 양승호 한솥밥[공식]",
   },
   {
     id: 10,

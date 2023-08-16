@@ -218,38 +218,6 @@ const artistData = [
   },
 
   {
-    artist: "shinjimin",
-    korName: "신지민",
-    engName: "Shin Jimin",
-    images: ["./img/artists/shinjimin/shinjimin-1.jpg"],
-    drama: [],
-    movies: [],
-    plays: [],
-    advs: [],
-    tvshows: [
-      "2022 JTBC 두 번째 세계",
-      "2018 E채널 산으로 가는 예능 - 정상회담",
-      "2017 JTBC 믹스앤더시티",
-      "2015 Mnet 언프리티 랩스타",
-    ],
-    musics: [
-      "데뷔 2012 AOA 1집 싱글 앨범 [Angel’s Story]",
-      "2023 BOXES 발매",
-      "2018 <Hey> 곡명 Hey 등 다수음원 발매",
-      "2017 <할렐루야(hallelujah)> 곡명 할렐루야(Hallelujah)",
-      "2016 <야 하고 싶어> 곡명 야 하고 싶어 (Feat. 시우민 of EXO)",
-      "2019 AOA - LOVE ADVENTURE / 탁구공 (Ping Pong), 발그레 (Ruddy)",
-      "2018 AOA - BINGLE BANGLE / 빙글뱅글, Super Duper, HEAT,Ladi Dadi, 뚜뚜뚜",
-      "2017 AOA - ANGEL'S KNOCK / Three Out, 느낌이 오니(Feeling), Melting Love, 너 때문에(Help Me)",
-      "2016 AOA - Good Luck / 10 seconds, Crazy Boy, Still Falls The Rain",
-      "2015 AOA - Heart Attack / 들어와(Come To Me)",
-      "2014 AOA - 사뿐사뿐 / 단둘이, 휠릴리",
-      "2013 AOA - MOYA",
-    ],
-    careers: [],
-  },
-
-  {
     artist: "shimtaeyoung",
     korName: "심태영",
     engName: "Shim Taeyoung",
@@ -275,8 +243,6 @@ const artistData = [
     musics: [],
     careers: [],
   },
-
-  
 
   {
     artist: "yangseungho",
@@ -543,20 +509,17 @@ const artistData = [
     korName: "김소희",
     engName: "Kim Sohee",
     images: ["./img/artists/kimsohee/kimsohee-1.jpg"],
-    drama: [
-      
-    ],
+    drama: [],
     movies: [],
     plays: [],
     advs: [],
-    tvshows: [
-    ],
+    tvshows: [],
     musics: [],
     careers: [],
     profile: [
       "성신여대 미디어영상연기학과",
       "경상도 사투리, 치어리닝, 유도, 수영",
-    ]
+    ],
   },
 ];
 
